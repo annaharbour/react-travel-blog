@@ -5,16 +5,21 @@ function Article({article}) {
     <div className="article">
 
       <div className="gallery">
-          {article.image.map((image, index) => (
-            <img key={index} src={image} alt={`Image ${index}`} />
+          {article.images.map((image, index) => (
+            <img key={index} src={image} alt=""/>
           ))}
       </div>
 
       <div className="articleBody">
           <h1 className="articleTitle">{article.title}</h1>
-          <p>Location: {article.location}</p>
+          <p className='location'>
+            Location: {article.location}</p>
+          <br></br>
           {article.textBlocks.map((textBlock, index) => (
+            <div className='textblock'>
             <p key={index}>{textBlock}</p>
+            <br></br>
+            </div>
           ))}
 
       </div> 

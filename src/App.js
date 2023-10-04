@@ -18,17 +18,14 @@ function App() {
             element={
               <>
               <Layout />
-              <Outlet /> {/* Nested routes will be rendered here */}
+              <Outlet /> 
               </>
-
             }
-          >
-              
+          >              
               <Route path='/' element={< PuraVida/> }>Pura Vida</Route>
               <Route path='Dominical' element={<Dominical />}>Dominical</Route>
               <Route path='Jaco' element={<Jaco />}>Jaco</Route>
               <Route path='LaFortuna' element={<LaFortuna />}>La Fortuna</Route>
-
               {articles.map((article) => (
           <Route
             key={article.title}
@@ -36,7 +33,6 @@ function App() {
             element={<Article article={article} />}
           />
         ))}
-
             </Route>
           </Routes>
         </BrowserRouter>

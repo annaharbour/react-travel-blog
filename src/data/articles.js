@@ -1,13 +1,13 @@
 const articles = [
     {
-        id: 1,
+        id: "jacosurfing",
         location: "Jaco",
         title: "First Taste of Surf",
         textBlocks: ["Jaco, Costa Rica, is renowned for its sun-kissed beaches and thrilling surf. On my recent visit, I decided to dive headfirst into this world of excitement and booked my very first surf lesson. What ensued was an unforgettable experience of learning to ride the waves in one of the most renowned surf destinations in the world. My adventure began on the golden sands of Jaco Beach, where the rhythmic crash of waves set the scene for what promised to be a day of exhilarating challenges and thrilling triumphs.", "The atmosphere was charged with a sense of anticipation and excitement. Before hitting the water, my surf instructor introduced us to the basics of surfing - from understanding the surfboard to paddling techniques and mastering the art of popping up. Their wisdom and patience were invaluable as they shared their deep passion for the sport and the ocean. With boards in hand, we ventured into the ocean, our hearts racing with a mix of trepidation and determination. The cool water enveloped us as we paddled further out, the waves growing in both size and intensity. It was time to put our newfound knowledge to the test.", "Surfing is often described as a dance with the ocean, and it certainly felt that way. Finding the perfect balance, gauging the rhythm of the waves, and timing the pop-up - it was a challenging sequence that demanded patience and persistence. What struck me most about my surf lesson was the sense of camaraderie among fellow surfers. We cheered each other on, celebrated each other's successes, and laughed off the wipeouts. It's a bond that forms effortlessly in the ocean, where everyone is united by a shared love for the waves. My first surf lesson in Jaco was a journey of self-discovery, patience, and pure exhilaration. It taught me not only the art of riding the waves but also the beauty of embracing challenges and triumphing over them. Jaco's renowned surf culture, coupled with the wisdom and guidance of my instructor, made this experience truly exceptional.", "If you're looking for an adventure that combines the thrill of the ocean with the joy of conquering your fears, I wholeheartedly recommend booking a surf lesson in Jaco. It's a chance to connect with nature, find your balance, and ride the waves of adventure in one of the most stunning surf destinations on Earth."],
-        images: ['/media/jaco/jaco1.jpg', './media/jaco/jaco2.jpg', './media/jaco/jaco3.jpg', './media/jaco/jaco4.jpg']
+        images: ['/media/jaco/jaco1.jpg', '/media/jaco/jaco2.jpg', '/media/jaco/jaco3.jpg', '/media/jaco/jaco4.jpg']
     },
     {
-        id: 2,
+        id: "jacoparagliding",
         location: "Jaco",
         title: "Soaring over Jaco",
         textBlocks: [
@@ -18,10 +18,10 @@ const articles = [
             "My heart raced as we ascended into the open sky, then he unclipped us, and there was nothing holding us down. Once in the air, any lingering nervousness was replaced by sheer wonder. The views of Jaco's coastline and the lush, green surroundings were absolutely breathtaking. It was like seeing this tropical paradise from the perspective of a bird, and it was unlike anything I'd ever experienced before. Paragliding is an incredibly serene and peaceful activity. The gentle gliding motion and the feeling of weightlessness created a sense of calm and freedom that's hard to describe. It was a moment of pure zen amidst the excitement. As we descended towards the landing site, I couldn't help but feel a sense of gratitude for this unique experience. The landing was smooth and controlled, a testament to the skill of my pilot.", 
             
             "I touched down with a sense of accomplishment and a newfound appreciation for the thrill of adventure.My first tethered paragliding adventure in Jaco was a whirlwind of emotions - from the initial excitement and nervousness to the pure exhilaration of flying and the serenity of gliding through the skies. It was an experience that allowed me to see Jaco's stunning landscapes from a perspective few get to enjoy. If you're ever in Jaco and looking for an unforgettable adventure that combines the thrill of flight with the tranquility of the open skies, I wholeheartedly recommend trying tethered paragliding. It's an opportunity to soar like a bird, embrace the beauty of nature, and create memories that will last a lifetime. So, take that leap of faith and experience the magic of paragliding in Jaco."],
-        images: ['./media/jaco/jacoparaglide1.jpg', './media/jaco/jacoparaglide2.jpg', './media/jaco/jacoparaglide3.jpg']
+        images: ['/media/jaco/jacoparaglide1.jpeg', '/media/jaco/jacoparaglide2.jpeg', '/media/jaco/jacoparaglide3.jpeg']
     },
     {
-        id: 3,
+        id: "jacofood",
         location: "Jaco",
         title: "Full Bellies in Jaco",
         textBlocks: [
@@ -41,10 +41,10 @@ const articles = [
 
             "Jaco's food scene is a delightful reflection of the town itself—lively, diverse, and deeply rooted in the natural beauty of Costa Rica. Whether you're indulging in seafood by the sea, savoring the vibrant flavors of tropical fruits, or exploring international fusions, Jaco's culinary offerings promise a journey for your taste buds. It's a place where every meal is an opportunity to immerse yourself in the Pura Vida lifestyle and savor the flavors of paradise. So, when you visit Jaco, prepare for a culinary adventure that will leave you craving more of Costa Rica's exquisite cuisine."
         ],
-        images: ['./media/jaco/jacofood1.jpg', './media/jaco/jacofood2.jpg', './media/jaco/jacofood3.jpg', './media/jaco/jacofood4.jpg']
+        images: ['/media/jaco/jacofood1.jpeg', '/media/jaco/jacofood2.jpeg', '/media/jaco/jacofood3.jpeg', '/media/jaco/jacofood4.jpeg']
     },
     {
-        id: 4,
+        id: "mysticopark",
         location: "La Fortuna",
         title: "Mystico Park",
         textBlocks: [
@@ -62,10 +62,10 @@ const articles = [
             
             "It was a reminder that nature's beauty shines even in the rain, and that the rainforest has a magic all its own. If you ever find yourself in Costa Rica, don't let a little rain deter you from experiencing the breathtaking landscapes and the hidden wonders of places like Mystico Park's Hanging Bridges. After all, sometimes, it's the unexpected moments that make a journey truly unforgettable."
         ],
-        images: ['./media/lafortuna/mysticopark1.jpg', './media/lafortuna/mysticopark2.jpg', './media/lafortuna/mysticopark3.jpg']
+        images: ['/media/lafortuna/mysticopark1.jpg', '/media/lafortuna/mysticopark2.jpg', '/media/lafortuna/mysticopark3.jpg']
     },
     {
-        id: 5,
+        id: "arenalvolcano",
         location: "La Fortuna",
         title: "Arenal Volcano Hike",
         textBlocks: [
@@ -87,10 +87,10 @@ const articles = [
 
             "If you ever find yourself in Costa Rica, we wholeheartedly recommend embarking on a guided tour with someone like Eric. Their expertise and passion can elevate a hike into an exploration, and their humor can turn every step into an adventure. It's a reminder that the journey is as important as the destination, and that with the right guide, you can uncover the magic in every corner of the world."
         ],
-        images: ['./media/lafortuna/arenalvolcano1.jpg', './media/lafortuna/arenalvolcano2.jpg', './media/lafortuna/arenalvolcano3.jpg', './media/lafortuna/arenalvolcano4.jpg']
+        images: ['/media/lafortuna/arenalvolcano1.jeg', '/media/lafortuna/arenalvolcano2.jpg', '/media/lafortuna/arenalvolcano3.jpg', '/media/lafortuna/arenalvolcano4.jpg']
     },
     {
-        id: 6,
+        id: "rioceleste",
         location: "La Fortuna",
         title: "Rio Celeste and Tenorio National Park",
         textBlocks: [
@@ -104,9 +104,10 @@ const articles = [
             
             "Visiting Rio Celeste and hiking in Tenorio National Park was an adventure that transcended the ordinary. It was a journey into a world of vivid blue waters, lush rainforests, and the incredible forces that shape our planet. Costa Rica's natural wonders continue to captivate the hearts of travelers, and this corner of the country is a testament to the awe-inspiring beauty that awaits those who seek it. If you're a nature enthusiast with a sense of adventure, put Rio Celeste and Tenorio National Park on your bucket list, and prepare to be spellbound by the magic of this pristine paradise.",
         ],
-        images: ['./media/lafortuna/rioceleste1.jpg', './media/lafortuna/rioceleste2.jpg', './media/lafortuna/rioceleste3.jpg']
+        images: ['/media/lafortuna/rioceleste1.jpg', '/media/lafortuna/rioceleste2.jpeg', '/media/lafortuna/rioceleste3.jpeg']
     },
     {
+        id: "cozycabin",
         location: "La Fortuna",
         title: "Cozy Cabin in La Fortuna",
         textBlocks: [
@@ -124,9 +125,10 @@ const articles = [
 
             "If you're seeking a getaway that allows you to reconnect with nature, savor delicious Costa Rican cuisine, and experience the warm hospitality of the locals, we wholeheartedly recommend a stay in a cabin like the one we enjoyed in La Fortuna. It's a chance to create lasting memories in a setting that's as close to Eden as you can imagine, and a reminder that sometimes, the most unforgettable adventures are found in the heart of the jungle."
         ],
-        images: ['./media/lafortuna/cozycabin1.jpg', './media/lafortuna/cozycabin2.jpg', './media/lafortuna/cozycabin3.jpg']
+        images: ['/media/lafortuna/cozycabin1.jpg', '/media/lafortuna/cozycabin2.jpg', '/media/lafortuna/cozycabin3.jpeg']
     },
     {
+        id: "lakearenalwatersports",
         location: "La Fortuna",
         title: "Lake Arenal Watersports",
         textBlocks: [
@@ -142,9 +144,10 @@ const articles = [
 
             "Lake Arenal's crystal-clear waters, vibrant wildlife, and the iconic Arenal Volcano created a backdrop that was nothing short of magical. Whether you're seeking serenity or excitement, the lake offers it all. It's a testament to the incredible diversity of experiences that can be found in this enchanting part of Costa Rica, where adventure and natural beauty go hand in hand."
         ],
-        images: ['./media/arenalwatersports1.jpg', './media/arenalwatersports2.jpg']
+        images: ['/media/lafortuna/arenalwatersports1.jpeg', '/media/lafortuna/arenalwatersports2.jpeg']
     },
     {
+        id: "dominicalparagliding",
         location: "Dominical",
         title: "Surfing Clouds",
         textBlocks: [
@@ -170,9 +173,10 @@ const articles = [
             
             "Zion Paragliding had given me not just an adventure but a chapter in the book of my life – a story of flight, of connection with nature, and of the beauty that exists when we dare to defy boundaries."
         ],
-        images: [""]
+        images: ['/media/dominical/surfingclouds1.jpg', '/media/dominical/surfingclouds2.jpg', '/media/dominical/surfingclouds3.jpg']
     },
     {
+        id: "nauyacafalls",
         location: "Dominical",
         title: "Nauyaca Falls",
         textBlocks: [
@@ -196,9 +200,10 @@ const articles = [
             
             "As I departed Nauyaca Falls in the comfort of the taxi, I couldn't help but reflect on the beauty of Costa Rica's wilderness and the resilience of the human spirit. It's a journey I'll cherish forever, reminding me that sometimes, the most remarkable adventures are the ones we undertake alone, against all odds, in pursuit of nature's most glorious treasures."
         ],
-        images: [""]
+        images: ['/media/dominical/nauyacafalls1.jpeg', '/media/dominical/nauyacafalls2.jpeg', '/media/dominical/nauyacafalls3.jpeg']
     },
     {
+        id: "dominicalsurfing",
         location: "Dominical",
         title: "Sunset Surf",
         textBlocks: [
@@ -220,9 +225,10 @@ const articles = [
             
             "The memory of catching my first green wave in Dominicalita is etched in my heart. It's a testament to the power of adventure, the beauty of the natural world, and the camaraderie of the surfing community. If you're looking for an unforgettable experience that combines the joy of surfing with the serenity of a tropical paradise, I can wholeheartedly recommend a surf lesson in Dominicalita. It's a journey of self-discovery and pure bliss that I'll carry with me forever. Pura Vida!"
         ],
-        images: [""]
+        images: ['/media/dominical/sunsetsurf1.jpeg', '/media/dominical/sunsetsurf2.jpeg', '/media/dominical/sunsetsurf3.jpeg']
     },
     {
+        id: "animalsanctuary",
         location: "Dominical",
         title: "Animal Sanctuary",
         textBlocks: [
@@ -242,9 +248,10 @@ const articles = [
             
             "If you find yourself in Dominical, make sure to visit Alturas Animal Sanctuary. It's a place where hearts are touched, and where the future of Costa Rica's incredible wildlife is being shaped. By joining their mission, you become a part of something greater - a community of individuals dedicated to preserving the natural treasures of this beautiful country for generations to come."
         ],
-        images: [""]
+        images: ['/media/dominical/animalsanctuary1.jpeg', '/media/dominical/animalsanctuary2.jpeg', '/media/dominical/animalsanctuary3.jpeg']
     },
     {
+        id: "dominicalfood",
         location: "Dominical",
         title: "Dining in Dominical",
         textBlocks: [
@@ -268,9 +275,10 @@ const articles = [
             
             "If you're seeking a destination that combines culinary exploration with thrilling experiences and the chance to connect with nature, Dominical should be on your travel list. It's a place where flavors and adventure go hand in hand, and where unexpected encounters with both food and wildlife are just waiting to be discovered. So, pack your appetite for adventure and head to Dominical, where every meal and every moment promises a taste of the extraordinary."
         ],
-        images: [""]
+        images: ['/media/dominical/diningdominical1.jpeg', '/media/dominical/diningdominical2.jpeg', '/media/dominical/diningdominical3.jpeg', '/media/dominical/diningdominical4.jpeg']
     },
     {
+        id: "dominicalyoga",
         location: "Dominical",
         title: "Yoga in Dominical",
         textBlocks: [
@@ -290,9 +298,10 @@ const articles = [
             
             "If you're seeking a yoga experience that transcends the ordinary, Danyasa Eco-Retreat and Rockstar Yoga in Dominical are the perfect choices. Surrounded by breathtaking natural beauty, guided by experienced local instructors, and immersed in a welcoming community, practicing yoga at Danyasa is a journey of self-discovery and rejuvenation. And when you add the unique Rockstar Yoga experience to the mix, you get an unforgettable blend of music, movement, and connection that will leave you refreshed and inspired. So, roll out your mat, breathe in the tropical air, and let Danyasa's magic and the soulful melodies of Rockstar Yoga enhance your yoga journey in Dominical. Namaste!"
         ],
-        images: [""]
+        images: ['/media/dominical/yoga1.jpeg', '/media/dominical/yoga2.jpeg', '/media/dominical/yoga3.jpeg', '/media/dominical/yoga4.jpeg']
     },
     {
+        id: "dominicalbeach",
         location: "Dominical",
         title: "Dominical Beach",
         textBlocks: [
@@ -310,7 +319,7 @@ const articles = [
 
             "If you're seeking a destination that offers serenity, beauty, and the chance to reconnect with nature and yourself, Dominical Beach should be on your travel list. It's a place where the magic of sunrise and the tranquility of sunset create a perfect day, every day. So, pack your running shoes and your sense of wonder, and let Dominical Beach weave its spell on your heart and soul."
         ],
-        images: [""]
+        images: ['/media/dominical/dominicalbeach.jpeg', '/media/dominical/dominicalbeach2.jpeg', '/media/dominical/dominicalbeach3.jpeg']
     },
 ]
 
