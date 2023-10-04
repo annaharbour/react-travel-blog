@@ -1,8 +1,16 @@
 import React from 'react'
 
-function PuraVida() {
+function PuraVida({backgroundImage}) {
+  const pageStyle = {
+    backgroundImage: backgroundImage
+    
+  }
+
   return (
-    <div class="low-opacity text-container">
+
+    <div className="background-container" style={pageStyle}>
+
+    <div className="low-opacity text-container">
         <h1>Pura Vida</h1>
 		<p>
             The essence of "Pura Vida" - this phrase encapsulates the very soul of Costa Rica and its people. This enchanting expression, more than just words, holds the vibration of a tranquil sunrise, the gentle sway of palms, and the whispers of ancient forests.
@@ -13,6 +21,7 @@ function PuraVida() {
             <br></br>
             Breathe. Explore. Immerse.
         </p>    
+    </div>
     </div>
   )
 }

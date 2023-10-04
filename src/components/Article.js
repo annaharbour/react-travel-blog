@@ -1,18 +1,23 @@
 import React from 'react'
 
-function Article() {
+function Article({article}) {
   return (
-    <div class="article">
+    <div className="article">
 
-<div class="gallery">
-        {/* Conditionally render gallery and text with two different classnames to control for special media queries that will stagger with text */}
-</div>
+      <div className="gallery">
+          {article.image.map((image, index) => (
+            <img key={index} src={image} alt={`Image ${index}`} />
+          ))}
+      </div>
 
-<div class="articleBody">
-    <h1 class="articleTitle">Article Title</h1>
-    <p>Article Body</p>
+      <div className="articleBody">
+          <h1 className="articleTitle">{article.title}</h1>
+          <p>Location: {article.location}</p>
+          {article.textBlocks.map((textBlock, index) => (
+            <p key={index}>{textBlock}</p>
+          ))}
 
-</div> 
+      </div> 
 
 </div>
 )
