@@ -22,7 +22,7 @@ function App() {
               </>
             }
           >              
-              <Route path='/' element={< PuraVida/> }>Pura Vida</Route>
+              <Route path='/CostaRica' element={< PuraVida/> }>Costa Rica</Route>
               <Route path='Dominical' element={<Dominical />}>Dominical</Route>
               <Route path='Jaco' element={<Jaco />}>Jaco</Route>
               <Route path='LaFortuna' element={<LaFortuna />}>La Fortuna</Route>

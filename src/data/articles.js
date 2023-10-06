@@ -2,6 +2,7 @@ const articles = [
     {
         id: "jacosurfing",
         location: "Jaco",
+        country: "Costa Rica",
         title: "First Taste of Surf",
         textBlocks: ["Jaco, Costa Rica, is renowned for its sun-kissed beaches and thrilling surf. On my recent visit, I decided to dive headfirst into this world of excitement and booked my very first surf lesson. What ensued was an unforgettable experience of learning to ride the waves in one of the most renowned surf destinations in the world. My adventure began on the golden sands of Jaco Beach, where the rhythmic crash of waves set the scene for what promised to be a day of exhilarating challenges and thrilling triumphs.", "The atmosphere was charged with a sense of anticipation and excitement. Before hitting the water, my surf instructor introduced us to the basics of surfing - from understanding the surfboard to paddling techniques and mastering the art of popping up. Their wisdom and patience were invaluable as they shared their deep passion for the sport and the ocean. With boards in hand, we ventured into the ocean, our hearts racing with a mix of trepidation and determination. The cool water enveloped us as we paddled further out, the waves growing in both size and intensity. It was time to put our newfound knowledge to the test.", "Surfing is often described as a dance with the ocean, and it certainly felt that way. Finding the perfect balance, gauging the rhythm of the waves, and timing the pop-up - it was a challenging sequence that demanded patience and persistence. What struck me most about my surf lesson was the sense of camaraderie among fellow surfers. We cheered each other on, celebrated each other's successes, and laughed off the wipeouts. It's a bond that forms effortlessly in the ocean, where everyone is united by a shared love for the waves. My first surf lesson in Jaco was a journey of self-discovery, patience, and pure exhilaration. It taught me not only the art of riding the waves but also the beauty of embracing challenges and triumphing over them. Jaco's renowned surf culture, coupled with the wisdom and guidance of my instructor, made this experience truly exceptional.", "If you're looking for an adventure that combines the thrill of the ocean with the joy of conquering your fears, I wholeheartedly recommend booking a surf lesson in Jaco. It's a chance to connect with nature, find your balance, and ride the waves of adventure in one of the most stunning surf destinations on Earth."],
         images: ['/media/jaco/jaco1.jpg', '/media/jaco/jaco2.jpg', '/media/jaco/jaco3.jpg', '/media/jaco/jaco4.jpg']
@@ -9,6 +10,7 @@ const articles = [
     {
         id: "jacoparagliding",
         location: "Jaco",
+        country: "Costa Rica",
         title: "Soaring over Jaco",
         textBlocks: [
             "Jaco, Costa Rica, is known for its stunning beaches and vibrant surf culture, but there's another way to experience the thrill of the Pacific coastline - tethered paragliding. On my recent visit to this picturesque town, I decided to take a leap of faith and try my first-ever tethered paragliding adventure. What followed was an exhilarating experience that allowed me to soar above the breathtaking landscapes of Jaco. My adventure began at a scenic launch site overlooking Jaco Beach.",
@@ -23,6 +25,7 @@ const articles = [
     {
         id: "jacofood",
         location: "Jaco",
+        country: "Costa Rica",
         title: "Full Bellies in Jaco",
         textBlocks: [
             "aco, a coastal gem on the Pacific shores of Costa Rica, is a destination celebrated not just for its stunning beaches and vibrant culture but also for its delectable cuisine. In this post, we embark on a tantalizing culinary journey through Jaco, exploring the diverse and mouthwatering food scene that makes this town a gastronomic paradise.",
@@ -46,6 +49,7 @@ const articles = [
     {
         id: "mysticopark",
         location: "La Fortuna",
+        country: "Costa Rica",
         title: "Mystico Park",
         textBlocks: [
             "Costa Rica is renowned for its rich biodiversity and stunning natural landscapes, and my visit to Mystico Park's Hanging Bridges was an adventure filled with anticipation and wonder. Although the rain kept many of the creatures hidden, the verdant beauty of the rainforest and the unexpected encounters with raccoon-like creatures made it a day to remember.",
@@ -67,6 +71,7 @@ const articles = [
     {
         id: "arenalvolcano",
         location: "La Fortuna",
+        country: "Costa Rica",
         title: "Arenal Volcano Hike",
         textBlocks: [
             "In the heart of Costa Rica's lush landscapes lies a duo of natural wonders that beckon adventurers from around the world: the awe-inspiring Arenal Volcano and the breathtaking La Fortuna Waterfall. Our recent excursion to these iconic sites was made all the more memorable by our guide, the knowledgeable and humor-filled Eric. Join us as we recount our trekking adventure through this stunning region.",
@@ -92,6 +97,7 @@ const articles = [
     {
         id: "rioceleste",
         location: "La Fortuna",
+        country: "Costa Rica",
         title: "Rio Celeste and Tenorio National Park",
         textBlocks: [
             "Costa Rica, a land of pristine natural beauty, boasts countless wonders for the adventurous traveler. Among these, the ethereal Rio Celeste and the enchanting trails of Tenorio National Park stand out as a must-visit destination. Our recent journey to this captivating corner of the world left us with memories of azure waters, lush rainforests, and the awe-inspiring power of nature.",
@@ -109,6 +115,7 @@ const articles = [
     {
         id: "cozycabin",
         location: "La Fortuna",
+        country: "Costa Rica",
         title: "Cozy Cabin in La Fortuna",
         textBlocks: [
             "La Fortuna, Costa Rica, is known for its stunning landscapes, including the majestic Arenal Volcano and lush rainforests. During our recent visit, we had the pleasure of staying in a cozy cabin nestled within this tropical paradise. Surrounded by vibrant foliage and just a short hike away from a serene river, this cabin retreat provided us with a truly unforgettable experience. Join us as we recount our stay in this hidden gem.",
@@ -130,6 +137,7 @@ const articles = [
     {
         id: "lakearenalwatersports",
         location: "La Fortuna",
+        country: "Costa Rica",
         title: "Lake Arenal Watersports",
         textBlocks: [
             "Lake Arenal, nestled in the lush landscapes of Costa Rica, is a natural gem offering not only breathtaking views but also a playground for water sports enthusiasts. On a recent trip, I had the exhilarating opportunity to explore the lake in three different ways: paddleboarding, kayaking, and jet skiing. With the majestic Arenal Volcano as a backdrop, this aquatic adventure was nothing short of extraordinary.",
@@ -149,6 +157,7 @@ const articles = [
     {
         id: "dominicalparagliding",
         location: "Dominical",
+        country: "Costa Rica",
         title: "Surfing Clouds",
         textBlocks: [
             "In the heart of Dominical, Costa Rica, I found myself embarking on an exhilarating journey with Zion Paragliding. The promise of soaring above the cliffs and gliding alongside the birds was an adventure I couldn't resist.",
@@ -178,6 +187,7 @@ const articles = [
     {
         id: "nauyacafalls",
         location: "Dominical",
+        country: "Costa Rica",
         title: "Nauyaca Falls",
         textBlocks: [
             "If you know me, you know you can't tell me to not go chasing waterfalls.",
@@ -205,6 +215,7 @@ const articles = [
     {
         id: "dominicalsurfing",
         location: "Dominical",
+        country: "Costa Rica",
         title: "Sunset Surf",
         textBlocks: [
             "Costa Rica's Pacific coast is a surfer's paradise, and my recent adventure in Dominicalita brought me face to face with the thrill of catching waves. In this post, I'll share my personal experience of taking a surf lesson in Dominicalita, a place where the sun, sand, and surf combine to create memories that will last a lifetime.",
@@ -230,6 +241,7 @@ const articles = [
     {
         id: "animalsanctuary",
         location: "Dominical",
+        country: "Costa Rica",
         title: "Animal Sanctuary",
         textBlocks: [
             "Nestled within the lush beauty of Dominical, Costa Rica, lies a haven of compassion and dedication - the Alturas Animal Sanctuary. This remarkable sanctuary is not just a place; it's a testament to the unwavering commitment to rescue, rehabilitate, and protect Costa Rica's diverse wildlife. Our visit to Alturas was a heartwarming journey into the world of animal conservation and the incredible work being done to protect these majestic creatures.",
@@ -253,6 +265,7 @@ const articles = [
     {
         id: "dominicalfood",
         location: "Dominical",
+        country: "Costa Rica",
         title: "Dining in Dominical",
         textBlocks: [
             "Dominical, a hidden gem on Costa Rica's Pacific coast, is a place where adventure meets flavor in the most delightful ways. Our recent visit to this coastal paradise was not only a feast for the senses but also a thrilling exploration of local cuisine and unforgettable experiences. Join us as we recount the culinary wonders and adventures we encountered in Dominical.", 
@@ -280,6 +293,7 @@ const articles = [
     {
         id: "dominicalyoga",
         location: "Dominical",
+        country: "Costa Rica",
         title: "Yoga in Dominical",
         textBlocks: [
             "Nestled along the serene coastline of Costa Rica, Dominical offers more than just beautiful beaches and lush rainforests. It's a place where you can reconnect with nature and yourself, and one of the best ways to do that is through yoga. In this post, we'll explore the magic of practicing yoga at Danyasa Eco-Retreat and the unique experience of Rockstar Yoga that are right at home in the hippie town of Dominical.",
@@ -303,6 +317,7 @@ const articles = [
     {
         id: "dominicalbeach",
         location: "Dominical",
+        country: "Costa Rica",
         title: "Dominical Beach",
         textBlocks: [
             "Dominical Beach, a pristine stretch of Costa Rican coastline, is more than just a place; it's a canvas where the sunrises and sunsets paint the most exquisite masterpieces. During our stay in this coastal paradise, we discovered that Dominical isn't just a destination; it's a place of daily wonder where the ocean's rhythm sets the pace for your heart and soul.",
