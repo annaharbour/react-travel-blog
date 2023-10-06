@@ -24,13 +24,16 @@ h1 {
 
 }
 
-
 /* Navbar container */
 .navbar {
   margin: 0;
-  overflow: hidden;
+  overflow: visible; /* Change to visible to allow the dropdown to be visible */
   background-color: #333;
   font-family: 'Raleway', sans-serif;  
+}
+
+.navbar a:hover {
+  background-color: rgba(0,0,0,0.1); /* Black background with opacity */
 }
 
 /* Links inside the navbar */
@@ -43,9 +46,41 @@ h1 {
   text-decoration: none;
 }
 
-.navbar a:hover {
-  background-color: rgba(0,0,0,0.1); /* Black background with opacity */
+/* Dropdown container */
+.dropdown {
+  position: relative; /* Position relative for proper child positioning */
+  display: inline-block;
 }
+
+/* Dropdown content */
+.dropdown-content {
+  background-color: #333;
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  z-index: 1;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Style for dropdown links */
+.dropdown-content a {
+  float: none;
+  display: block;
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.dropdown-content a:hover {
+  background-color: rgba(0,0,0,0.1);
+}
+
+
 
 .article-link {
   font-size: 5px;
@@ -98,6 +133,10 @@ h1 {
 
 .la-fortuna {
   background-image: url('../public/media/lafortuna/bg-lafortuna.jpeg');
+}
+
+.home {
+  background-image: url('');
 }
 
 .text-container p {

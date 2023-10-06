@@ -7,6 +7,7 @@ import PuraVida from './components/PuraVida';
 import Layout from './components/Layout';
 import Article from './components/Article';
 import articles from './data/articles'
+import Home from './components/Home';
 
 function App() {
   return (
@@ -22,10 +23,11 @@ function App() {
               </>
             }
           >              
+              <Route path='/' element={< Home/> }>Home</Route>
               <Route path='/CostaRica' element={< PuraVida/> }>Costa Rica</Route>
-              <Route path='Dominical' element={<Dominical />}>Dominical</Route>
-              <Route path='Jaco' element={<Jaco />}>Jaco</Route>
-              <Route path='LaFortuna' element={<LaFortuna />}>La Fortuna</Route>
+              <Route path='/Dominical' element={<Dominical />}>Dominical</Route>
+              <Route path='/Jaco' element={<Jaco />}>Jaco</Route>
+              <Route path='/LaFortuna' element={<LaFortuna />}>La Fortuna</Route>
               {articles.map((article) => (
           <Route
             key={article.title}
