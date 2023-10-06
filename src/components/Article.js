@@ -19,6 +19,15 @@ function Article({article}) {
         location = "";
     }
     country = <Link to="/CostaRica">Costa Rica</Link>
+  } else if (article.country === "Mexico"){
+      switch(article.location){
+        case "Zihuatanejo":
+          location = <Link to='/Zihuatanejo'>Zihuatanejo</Link>;
+          break;
+          default:
+            location="";
+      }
+    country = <Link to='/Mexico'>Mexico</Link>
   }
 
 
@@ -27,7 +36,7 @@ function Article({article}) {
 
       <div className="gallery">
           {article.images.map((image, index) => (
-            <img key={index} src={image} alt=""/>
+              <img key={index} src={image} alt=""/>
           ))}
       </div>
 

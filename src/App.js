@@ -8,6 +8,8 @@ import Layout from './components/Layout';
 import Article from './components/Article';
 import articles from './data/articles'
 import Home from './components/Home';
+import Mexico from './components/Mexico';
+import Zihuatanejo from './components/Zihuatanejo';
 
 function App() {
   return (
@@ -24,6 +26,9 @@ function App() {
             }
           >              
               <Route path='/' element={< Home/> }>Home</Route>
+              <Route path='/Mexico' element={<Mexico />}>La Fortuna</Route>
+              <Route path='/Zihuatanejo' element={<Zihuatanejo />}>Zihuatanejo</Route>
+
               <Route path='/CostaRica' element={< PuraVida/> }>Costa Rica</Route>
               <Route path='/Dominical' element={<Dominical />}>Dominical</Route>
               <Route path='/Jaco' element={<Jaco />}>Jaco</Route>

@@ -48,7 +48,7 @@ h1 {
 
 /* Dropdown container */
 .dropdown {
-  position: relative; /* Position relative for proper child positioning */
+  position: relative; 
   display: inline-block;
 }
 
@@ -135,8 +135,16 @@ h1 {
   background-image: url('../public/media/lafortuna/bg-lafortuna.jpeg');
 }
 
+.bg-mexico {
+  background-image: url('../public/media/mexico/zihuatanejo/bg-zih.jpeg');
+}
+
+.bg-zih {
+  background-image: url('../public/media/mexico/zihuatanejo/bg-mex.jpeg');
+}
+
 .home {
-  background-image: url('');
+  background-image: url('/public/media/mexico/zihuatanejo/bg-home.jpeg')
 }
 
 .text-container p {
@@ -216,7 +224,7 @@ white-space: nowrap;
     line-height: 2rem;
   } 
 
-  .gallery {
+   .gallery {
     display: block;
     align-content: center;
     justify-content: center;
@@ -228,8 +236,10 @@ white-space: nowrap;
     height: auto;
     align-self: center;
     justify-self: center;
-  }
- 
+  }  
+  
+    
+
   .background-container {
     background-size: cover;
     overflow: hidden;

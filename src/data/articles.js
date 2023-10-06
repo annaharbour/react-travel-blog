@@ -336,6 +336,90 @@ const articles = [
         ],
         images: ['/media/dominical/dominicalbeach.jpeg', '/media/dominical/dominicalbeach2.jpeg', '/media/dominical/dominicalbeach3.jpeg']
     },
+    {
+        id: "zihuatanejoyoga",
+        location: "Zihuatanejo",
+        country: "Mexico",
+        title: "Yoga Retreat",
+        textBlocks: [
+            "Our yoga practice was a daily ritual, commencing with the first rays of the sun. We had the privilege of practicing in two distinct yet equally enchanting settings. The Turtle Hut, a rustic yet charming sanctuary, was a short walk down the beach. It provided an intimate, almost mystical atmosphere, where the rhythmic sounds of waves and the gentle rustling of palm trees formed the backdrop to our sunrise sessions. Here, we delved deep into our practice, finding solace in the simplicity of nature.",
+            
+            "In contrast, the other shala was a spacious, open-deck sanctuary that overlooked the vast expanse of the ocean. As we stretched and breathed, we were met with panoramic views of the azure waters stretching to the horizon. The grandeur of this setting was awe-inspiring, and our yoga sessions on this deck became a serene communion with the sea and sky.",
+            
+            "Guided by experienced instructors, we explored meditation, mindfulness, and rejuvenating asanas. With each day, we deepened our mind-body connection and found a profound sense of inner peace. The salty ocean breeze and the embrace of the natural surroundings enhanced our practice, making it a holistic and enriching experience.",
+            
+            "This retreat in Zihuatanejo was not just a physical journey but a profound spiritual one. It left me feeling refreshed, grounded, and deeply connected to both myself and the stunning Mexican coastline. As I reflect on those serene mornings in the Turtle Hut and the breathtaking vistas from the ocean-facing shala, I carry with me the timeless wisdom of yoga and the tranquil beauty of Zihuatanejo's shores. Namaste. "
+        ],
+        images: ['/media/mexico/zihuatanejo/mex-yoga1.jpeg', '/media/mexico/zihuatanejo/mex-yoga2.jpeg']
+    },
+    {
+        id: "zihuatanejoturtles",
+        location: "Zihuatanejo",
+        country: "Mexico",
+        title: "Turtle Sanctuary",
+        textBlocks: [
+            "The Playa Viva turtle sanctuary in Zihuatanejo offered a truly extraordinary experience that left a lasting impression on my heart. It was a unique opportunity to witness the incredible lifecycle of these magnificent creatures up close.",
+            
+            "One memorable morning, we gathered on the pristine beach before sunrise, the sky painted with hues of pink and orange. As the first light of daybreak pierced the horizon, we were handed tiny, fragile turtle hatchlings. Holding these precious beings in my hands, I felt an immediate connection to the natural world. With our hearts filled with hope and anticipation, we released them into the gentle embrace of the Pacific Ocean. It was a poignant moment as we watched them embark on their journey, guided by the instinctual pull of the sea, and the promise of new beginnings.",
+            
+            "But the magic didn't end there. Our adventure continued with a midnight excursion to witness the awe-inspiring spectacle of a mother turtle emerging from the depths of the ocean to lay her eggs. Under the cover of darkness, we observed this ancient ritual in reverent silence. It was a profound reminder of the power and resilience of nature, as this graceful creature performed her timeless duty.",
+            
+            "As the mother turtle dug her nest and carefully deposited her eggs, we were in awe of her strength and grace. It was a reminder of the fragility of life and the importance of protecting these endangered species. Once the mother turtle had finished her work, we carefully collected her eggs, ensuring their safe transport to the sanctuary's hatchery.",
+            
+            "In the hatchery, we placed the eggs in a secure, protected environment to shield them from potential predators. It was a critical step in the conservation efforts to ensure the survival of these remarkable creatures. As we tended to the precious cargo, I couldn't help but marvel at the dedication of the Playa Viva team and the importance of their work in safeguarding the future of sea turtles.",
+            
+            "This experience was a profound journey into the natural world, a chance to witness the circle of life in all its raw beauty. It left me with a deep appreciation for the interconnectedness of all living beings and a renewed commitment to preserving our planet's precious ecosystems. Playa Viva's turtle sanctuary not only provided a glimpse into the wonders of nature but also an opportunity to actively participate in the preservation of a remarkable species. It was a privilege I will forever cherish."
+        ],
+        images: ['/media/mexico/zihuatanejo/mex-turtles1.jpeg', '/media/mexico/zihuatanejo/mex-turtles2.jpeg', '/media/mexico/zihuatanejo/mex-turtles3.jpeg'],
+        link: 'https://www.playaviva.com/impact/turtle-sanctuary',
+        linkTitle: 'Playa Viva Turtle Sanctuary'
+    },
+    {
+        id: "cookingclass",
+        location: "Zihuatanejo",
+        country: "Mexico",
+        title: "Cooking Class",
+        textBlocks: [
+            "The culinary journey at Playa Viva was as enchanting as the surrounding natural beauty. One of the standout experiences during my stay was the immersive cooking class led by the talented chef, where we not only learned to prepare mouthwatering dishes but also discovered the rich flavors of Mexican cuisine.",
+
+            "The cooking class was a delightful and hands-on affair, catering to a variety of dietary preferences. It began with a warm welcome and an introduction to the vibrant ingredients that would soon become the stars of our culinary creations. Whether you were a seafood enthusiast, vegetarian, or had any specific dietary restrictions, there was something for everyone.",
+            
+            "My culinary adventure led me to a station where I had the pleasure of crafting oyster mushroom tacos. With guidance from the chef, I sautéed the earthy mushrooms to perfection and assembled them into tacos, adding fresh herbs and zesty sauces. It was a mouthwatering combination of textures and flavors that celebrated the region's natural produce.",
+            
+            "But the feast didn't stop there. We had the chance to prepare fried plantain balls stuffed with almonds, a delightful fusion of sweet and savory. Each bite was a delightful surprise as the crispy exterior gave way to the tender, nutty center.",
+            
+            "Throughout the class, we also explored other delectable dishes, including mole, cactus preparations, beet hummus, and passion fruit-infused guacamole. Each dish was a testament to the diverse and colorful culinary traditions of Mexico.",
+            
+            "As if the cooking class weren't indulgent enough, Playa Viva's hospitality extended to the entire dining experience. The resort generously overfed us with two sumptuous breakfasts, a constant supply of fresh smoothies and fruits, and mouthwatering lunch and dinner offerings that always ended with delectable desserts.",
+            
+            "The experience wasn't just about food; it was a celebration of the senses, an exploration of local flavors, and a connection to the region's culinary heritage. It left me with a deep appreciation for the creativity and skill of the chef and a newfound love for Mexican cuisine. The memories of that cooking class, the tastes, the laughter, and the camaraderie will forever hold a special place in my heart. Playa Viva truly offered a culinary journey like no other."
+        ],
+        images: ['/media/mexico/zihuatanejo/mex-food5.jpeg', '/media/mexico/zihuatanejo/mex-food3.jpeg', '/media/mexico/zihuatanejo/mex-food4.jpeg', '/media/mexico/zihuatanejo/mex-food1.jpeg'],
+    },
+    {
+        id: "elementalescape",
+        location: "Zihuatanejo",
+        country: "Mexico",
+        title: "Elemental Escape",
+        textBlocks: [
+            "Zihuatanejo, nestled along the picturesque Pacific coastline, is a place where the four elemental forces of earth, wind, fire, and air come together in perfect harmony, creating an enchanting and mystical experience.",
+
+        "The earth in Zihuatanejo is rich and abundant, with lush jungles, dense mangroves, and golden sandy beaches that meet the vast expanse of the Pacific Ocean. The land is teeming with life, from the vibrant vegetation to the myriad of creatures that inhabit its forests and waters. It's a place where the earth's bounty is celebrated through the flavors of fresh seafood, locally grown produce, and the nourishment of the soul through nature's beauty.",
+        
+        "The gentle ocean breezes and the soothing caress of the coastal winds define Zihuatanejo's ambiance. These winds bring a sense of calm and tranquility, creating the perfect atmosphere for relaxation and contemplation. They also set sail for adventure, carrying the dreams of surfers and sailors who seek the exhilaration of the open sea.",
+        
+        "The fiery sunsets of Zihuatanejo paint the sky with a brilliant palette of oranges, pinks, and purples. As the sun dips below the horizon, it leaves behind a fiery glow that warms the heart and ignites the spirit. The warmth of the sun's rays during the day is complemented by the fiery passion of the local culture, from the lively dance performances to the zestful flavors of Mexican cuisine.",
+        
+        "The air in Zihuatanejo carries the songs of exotic birds and the whispers of palm fronds swaying in the breeze. It's an air infused with the scents of blooming flowers, saltwater, and the earth's natural fragrances. This air invites you to breathe deeply, filling your lungs with the invigorating essence of the coastal paradise.",
+        
+        "In Zihuatanejo, these elemental forces converge to create a sense of harmony and balance, inviting travelers to connect with nature and themselves. Whether you're meditating on the beach, surfing the ocean waves, savoring local cuisine, or simply taking in the breathtaking sunsets, Zihuatanejo offers an elemental experience that rejuvenates the soul and leaves you feeling more attuned to the world around you. It's a place where the elements conspire to create moments of magic and inspiration that stay with you long after you've left its shores.",
+
+        "During our stay in Zihuatanejo, we had the unique opportunity to reside in open-air treehouses. These enchanting abodes allowed us to be intimately connected to the elements, enhancing our experience of the four elemental forces of earth, wind, fire, and air. Under the full moon's mesmerizing glow, we drifted off to sleep to the rhythmic lullaby of crashing waves, and each morning, we awakened to the same soothing serenade. This immersive experience elevated our connection to nature and made our time in Zihuatanejo truly unforgettable."
+        ],
+        images: ['/media/mexico/zihuatanejo/mex-beach1.jpeg', '/media/mexico/zihuatanejo/mex-beach2.jpeg', '/media/mexico/zihuatanejo/mex-beach3.jpeg', '/media/mexico/zihuatanejo/mex-beach4.jpeg'],
+        link: 'https://www.elementalescaperetreat.com/',
+        linkTitle: 'Elemental Escape Retreat'
+    },
 ]
 
 

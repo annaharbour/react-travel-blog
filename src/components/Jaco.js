@@ -9,7 +9,7 @@ function Jaco() {
   return (
     <div className='background-container jaco'>
     <div className="low-opacity text-container">
-        <h1>Jaco</h1>
+        <h1>Jaco, Costa Rica</h1>
 		<p>
         Nestled along the Central Pacific coast of Costa Rica, Jaco is a vibrant beach town that offers an irresistible mix of natural beauty, thrilling adventures, and a laid-back atmosphere. Known for its world-class surf breaks, lively nightlife, and proximity to pristine rainforests, Jaco is a haven for travelers seeking a perfect blend of relaxation and excitement. 
         <br></br>
