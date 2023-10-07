@@ -17,16 +17,12 @@ body {
   margin: 0;
   padding: 0;
   background-color: transparent;
-  padding-left: min(0vmin, env(safe-area-inset-left));
-  padding-right: min(0vmin, env(safe-area-inset-right));
-  overflow: hidden;
 }
 
 html {
   background-color: transparent;
   box-sizing: border-box;
   width: 100%;
-  padding: env(safe-area-inset);
 }
 
 a:hover{
