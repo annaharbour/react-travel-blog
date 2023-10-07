@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 function PuraVida({backgroundImage}) {
   const pageStyle = {
@@ -20,7 +21,14 @@ function PuraVida({backgroundImage}) {
             Join us on a journey of discovery, where the warmth of the sun touches not only your skin but also your soul. Embrace the esoteric energy that resonates within these pages, and let the essence of Pura Vida infuse your being. Through our words and stories, may you find your own connection to the sacred rhythms of life, and may the beauty of Costa Rica's spirit become a part of your own.
             <br></br>
             Breathe. Explore. Immerse.
-        </p>    
+        </p>   
+        <ul className='article-list'>
+          <li><Link to="/Dominical">Dominical</Link></li> 
+          <li><Link to="/Jaco">Jaco</Link></li>
+          <li><Link to="/LaFortuna">La Fortuna</Link>  </li>
+        
+        </ul>
+  
     </div>
     </div>
   )
