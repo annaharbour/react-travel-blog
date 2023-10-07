@@ -13,6 +13,19 @@ a {
   color: #333;
 }
 
+body {
+  margin: 0;
+  padding: 0;
+  background-color: transparent;
+}
+
+html {
+  background-color: transparent;
+  box-sizing: border-box;
+  width: 100%;
+  padding: env(safe-area-inset);
+}
+
 a:hover{
   text-decoration: underline;
 }
@@ -107,8 +120,6 @@ button:hover {
 .dropdown-content a:hover {
   background-color: rgba(0,0,0,0.1);
 }
-
-
 
 .article-link {
   font-size: 5px;
