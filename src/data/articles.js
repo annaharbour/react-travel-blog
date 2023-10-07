@@ -185,11 +185,9 @@ const articles = [
         textBlocks: [
             "If you know me, you know you can't tell me to not go chasing waterfalls.",
             
-            "Costa Rica is a land of breathtaking natural wonders, and Nauyaca Falls is undoubtedly one of its crown jewels. My recent solo hiking adventure to Nauyaca Falls was a test of determination, a journey through stunning landscapes, and an opportunity to witness the power and beauty of nature up close. In this post, I'll take you through the highs and lows of my unforgettable solo trek to the tallest waterfall in Costa Rica.",
+            "Costa Rica is a land of breathtaking natural wonders, and Nauyaca Falls is undoubtedly one of its crown jewels, the tallest waterfall in Costa Rica. My solo adventure to Nauyaca Falls was aan opportunity to witness the power and beauty of nature up close.",
             
             "My first day in Dominical, after breakfast with the paragliders and a tour of the town, culminated in the discovery that I was within a half hour drive of the tallest waterfall in Costa Rica. Next thing I knew I was in a taxi on my way to Nauyaca Falls. The excitement was palpable as I anticipated the adventure that awaited me. The taxi dropped me off at the trailhead, which marked the beginning of my hike.",
-            
-            "The trail down to Nauyaca Falls is not for the faint of heart. It's a steep, winding road that descends through dense rainforest. As I navigated the path, I couldn't help but be awestruck by the vibrant flora and the sound of wildlife echoing through the trees. Every step was a reminder of the untouched beauty of Costa Rica.",
             
             "When I finally reached the drop-off point for the shuttle buses that take visitors to the falls, I was greeted with disappointing news. The buses had stopped running for the day, and I was told there was no way I would make it to the falls before closing time. Despite the odds, I decided to press on. The allure of Nauyaca Falls was too strong to resist.",
             
@@ -199,9 +197,7 @@ const articles = [
             
             "However, my adventure wasn't over yet. After relishing my time at the falls, I faced a new challenge—getting back to civilization. With no shuttle buses or taxis in sight, I was momentarily stuck. But as luck would have it, I had the foresight to bring my phone. A quick call to a friend, and a taxi was on its way to rescue me from my remote oasis.",
             
-            "My solo hiking adventure to Nauyaca Falls was a testament to the rewards of perseverance and a deep connection to nature. I trekked through challenging terrain, defied the odds, and was rewarded with an intimate encounter with one of Costa Rica's most magnificent natural wonders. It was a day filled with adventure, solitude, and the humbling realization that sometimes, the most extraordinary experiences happen when you step off the beaten path.",
-            
-            "As I departed Nauyaca Falls in the comfort of the taxi, I couldn't help but reflect on the beauty of Costa Rica's wilderness and the resilience of the human spirit. It's a journey I'll cherish forever, reminding me that sometimes, the most remarkable adventures are the ones we undertake alone, against all odds, in pursuit of nature's most glorious treasures."
+            "As I departed Nauyaca Falls in the comfort of the taxi, I couldn't help but reflect on the beauty of Costa Rica. It's a journey I'll cherish forever, reminding me that sometimes, the most remarkable adventures are the ones we undertake alone."
         ],
         images: ['/media/dominical/nauyacafalls1.jpeg', '/media/dominical/nauyacafalls2.jpeg', '/media/dominical/nauyacafalls3.jpeg']
     },
@@ -215,19 +211,13 @@ const articles = [
             
             "Dominicalita, a serene coastal village just a short drive from Dominical, immediately charmed me with its untouched beauty. The golden sandy beaches stretched as far as the eye could see, and the lush hills provided a breathtaking backdrop. It was the perfect setting for my surf adventure.", 
             
-            "One of the first things I did upon arriving in Dominicalita was to enroll in a surf lesson. I opted for a local surf school recommended by fellow travelers. Their commitment to safety, the quality of their equipment, and the glowing reviews convinced me I was in good hands.", 
+            "We started with a quick introduction to surfing,the basics of ocean safety, and a rundown of the day's plan. Before even stepping into the water, I learned the proper paddling technique on the beach. Once in the shallows, my instructor guided me through the process of catching smaller, manageable waves.",
             
-            "Sunset Surf, where I met my surf instructor, a seasoned pro with a deep passion for the sport. We started with a quick introduction to surfing,the basics of ocean safety, and a rundown of the day's plan.",
-            
-            "Before even stepping into the water, I learned the proper paddling technique on the beach. Once in the shallows, my instructor guided me through the process of catching smaller, manageable waves. Balancing on the board while riding these waves was a thrilling experience in itself.",
-            
-            "As my confidence grew, we ventured a little further into the ocean to tackle larger, unbroken waves. The exhilaration of catching a 'green' wave for the first time is something I'll never forget. It was a perfect fusion of balance, timing, and sheer joy.", 
-            
-            "Throughout the lesson, my instructor provided invaluable feedback and constant encouragement. Surfing can be challenging, but with their guidance, I felt a growing sense of achievement with each ride.", 
+            "As my confidence grew, we ventured a little further into the ocean to tackle larger waves. Throughout the lesson, my instructor provided invaluable feedback and constant encouragement. Surfing can be challenging, but with their guidance, I felt a growing sense of achievement with each ride.", 
             
             "My surf lesson in Dominicalita was not just about learning to surf; it was a profound connection with the ocean, nature, and the Pura Vida lifestyle. I took to it less than the children who were also being coached through their first time on a board.",
             
-            "The memory of catching my first green wave in Dominicalita is etched in my heart. It's a testament to the power of adventure, the beauty of the natural world, and the camaraderie of the surfing community. If you're looking for an unforgettable experience that combines the joy of surfing with the serenity of a tropical paradise, I can wholeheartedly recommend a surf lesson in Dominicalita. It's a journey of self-discovery and pure bliss that I'll carry with me forever. Pura Vida!"
+            "If you're looking for an unforgettable experience that combines the joy of surfing with the serenity of a tropical paradise, I can wholeheartedly recommend a surf lesson in Dominicalita. It's a journey of self-discovery and pure bliss that I'll carry with me forever. Pura Vida!"
         ],
         images: ['/media/dominical/sunsetsurf1.jpeg', '/media/dominical/sunsetsurf2.jpeg', '/media/dominical/sunsetsurf3.jpeg']
     },
