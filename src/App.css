@@ -19,6 +19,7 @@ body {
   background-color: transparent;
   padding-left: min(0vmin, env(safe-area-inset-left));
   padding-right: min(0vmin, env(safe-area-inset-right));
+  overflow: hidden;
 }
 
 html {
@@ -153,6 +154,7 @@ button:hover {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
+  background-attachment: fixed;
   min-width: 100vw;
   min-height: 100vh;
   margin: 0;
