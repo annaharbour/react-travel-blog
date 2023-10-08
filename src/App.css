@@ -1,6 +1,7 @@
-@supports(padding: max(0px)){
+@supports(padding: max(0px)) {
   .post {
-    padding-left: max(12px, constant(safe-area))
+     padding-left: max(12px, constant(safe-area-inset-left));
+     padding-right: max(12px, constant(safe-area-inset-right));
   }
 }
 
