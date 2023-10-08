@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 function Home({articles, backgroundImage}) {
   const [searchTerm, setSearchTerm]= useState('');
   const [searchResults, setSearchResults] = useState([]);
+  const [noResultsMessage, setNoResultsMessage] = useState('');
 
   const pageStyle = {
     backgroundImage: backgroundImage  
@@ -19,6 +20,12 @@ function Home({articles, backgroundImage}) {
     const filteredArticles = articles.filter((article) => article.title.toLowerCase().includes(searchTerm.toLowerCase()) || article.textBlocks.some((block) => block.toLowerCase().includes(searchTerm.toLowerCase())))
     
     setSearchResults(filteredArticles);
+
+    if(filteredArticles.length === 0) {
+      setNoResultsMessage(`No articles found. Try another keyword, like 'ocean', 'paragliding', or 'surfing' to check out some of my favorite articles.`);
+    } else {
+      setNoResultsMessage('');
+    }
   }
 
   return (
@@ -37,6 +44,7 @@ function Home({articles, backgroundImage}) {
           />
           <button type='submit'>Search</button>
         </form>
+        {noResultsMessage && <p><i>{noResultsMessage}</i></p>}
         <ul className='article-list'>
           {searchResults.map((article) => (
             <li key={article.id}>

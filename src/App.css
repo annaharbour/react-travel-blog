@@ -1,3 +1,9 @@
+@supports(padding: max(0px)){
+  .post {
+    padding-left: max(12px, constant(safe-area))
+  }
+}
+
 @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;800&display=swap');
 
@@ -53,7 +59,7 @@ textarea:focus, input:focus {
   border: .01rem #333 solid;
 }
 
-button {
+.article-search button {
   border-radius: 5%;
   border: none;
   margin-right: 1rem;
@@ -64,6 +70,12 @@ button {
 
 button:hover {
   cursor: pointer;
+}
+
+.location button {
+  border: none;
+  background-color:transparent;
+  font-size: 1.2rem;
 }
 
 /* Navbar container */
@@ -190,6 +202,17 @@ button:hover {
 
 .text-container p {
   line-height: 1.5rem;
+}
+
+
+
+.location a {
+  margin-left: .2rem;
+  text-decoration: underline;
+}
+
+.location a:hover {
+  text-decoration: none;
 }
 
 .text-container ul {

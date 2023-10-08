@@ -1,5 +1,5 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
+import { Link, useNavigate } from 'react-router-dom'
 
 function Article({article}) {
   let country;
@@ -7,13 +7,19 @@ function Article({article}) {
   if(article.country === "Costa Rica"){
     switch (article.location){
       case "La Fortuna":
-        location = <Link to='/LaFortuna'>La Fortuna</Link>;
+        location = <Link to='/LaFortuna'>
+          La Fortuna
+          </Link>;
         break;
       case "Dominical":
-        location = <Link to='/LaFortuna'>La Fortuna</Link>;
+        location = <Link to='/Dominical'>
+          Dominical
+          </Link>;
         break;
       case "Jaco":
-        location = <Link to='/LaFortuna'>Jaco</Link>;
+        location = <Link to='/Jaco'>
+          Jaco
+          </Link>;
         break;
       default: 
         location = "";
@@ -22,7 +28,9 @@ function Article({article}) {
   } else if (article.country === "Mexico"){
       switch(article.location){
         case "Zihuatanejo":
-          location = <Link to='/Zihuatanejo'>Zihuatanejo</Link>;
+          location = <Link to='/Zihuatanejo'>
+            Zihuatanejo
+            </Link>;
           break;
           default:
             location="";
@@ -30,6 +38,10 @@ function Article({article}) {
     country = <Link to='/Mexico'>Mexico</Link>
   }
 
+  const navigate = useNavigate();
+	const goBack = () => {
+		navigate(-1);
+	}
 
   return (
     <div className="article">
@@ -43,7 +55,12 @@ function Article({article}) {
       <div className="articleBody">
           <h1 className="articleTitle">{article.title}</h1>
           <p className='location'>
-            <b>Location:</b> {location}, {country}</p>
+            <b>
+              <button onClick={goBack}><i class="fa-solid fa-left-long"></i></button>
+              Location:
+            </b> 
+            <span className='location'>{location}, {country}</span>
+          </p>
           <br></br>
           {article.textBlocks.map((textBlock, index) => (
             <div className='textblock'>
